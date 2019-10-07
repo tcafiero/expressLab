@@ -36,9 +36,9 @@ console.log(collection[0].humidity[0]);
 
 // code example for a JavaScript object conversion into a JSON string
 var obj=[];
+var id="1234";
 var array1=[];
 var array2=[];
-var id="1234";
 array1.push(1);
 array1.push(2);
 array1.push(3);
@@ -53,7 +53,7 @@ server.get("/hello", (req, res) => {
 });
 
 server.get("/diskdb", (req, res) => {
-   res.json(collection);
+   res.json(collection[0]);
 });
 
 
