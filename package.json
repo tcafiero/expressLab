@@ -12,6 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "diskdb": "^0.1.17",
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
